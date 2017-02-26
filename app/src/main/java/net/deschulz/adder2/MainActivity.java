@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         String msg1 = number1.getText().toString();
         String msg2 = number2.getText().toString();
-        Double d1 = Double.valueOf(number1.getText().toString()).doubleValue();
+        Double d1 = Double.valueOf(msg1).doubleValue();
         Double d2 = Double.valueOf(number2.getText().toString()).doubleValue();
         Double tot = d1 + d2;
 
